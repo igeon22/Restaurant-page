@@ -1,0 +1,211 @@
+
+body{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+/* TOP OF THE PAGE */
+
+header{
+	padding-top: 10px;
+	background-color: #1e293b;
+
+}
+
+.mod{
+	color: #7c3aed ;
+}
+
+
+.page-title{
+	font-family: Calibri;
+	font-weight: bolder;
+	font-style: italic;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+}
+
+
+.nav-bar{
+	background-color: #0f172a;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	gap: 20px;
+	padding: 10px 0px ;
+}
+
+.nav-buttons{
+	background-color: transparent;
+	color: white;
+	font-family: calibri;
+	font-size: 1.1em;
+	border: none;
+	font-weight: bold;
+}
+
+.nav-buttons:hover{
+	color: #dcfce7;
+	text-decoration: underline;
+}
+
+.nav-buttons:active{
+	color: #d9f99d ;
+	text-decoration: dotted;
+}
+
+
+/* HOME PAGE */
+
+.main-part{
+	padding-top: 20px;
+	width: 100%;
+	/* padding-left: 5px;	
+	padding-right: 5px;	 */
+	/* background-color: #f1f5f9; */
+
+}
+
+
+
+.image-slider{
+	border: 1px solid #cbd5e1;
+	box-shadow: 2px 2px 2px #cbd5e1;
+	border-radius: 9px;
+	width: 90%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../src/Images/drinks.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+	align-items: flex-end;
+
+}
+
+.circles{
+	width: 10px;
+	height: 10px;
+	background-color: grey;
+	border: 0px solid transparent;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+/* #c-1{
+	opacity: 0.5;
+	background-color: #0f172a;
+} */
+
+
+.mid-title{
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #1f2937;
+
+}
+
+.main{
+	text-align: center;
+}
+
+.content{
+	font-family: calibri;
+	font-weight: bold;
+	font-style: italic;
+	color: 4b5563;
+}
+
+.sub{
+	color: #6b7280;
+}
+
+.create{
+	font-family: calibri;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	text-align: center;
+}
+
+
+/* MENU PAGE */
+.menu-part{
+	background-color: #ffffff;
+	padding-top: 10px;
+}
+
+.title-menu{
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 1.6em;
+	color: #1f2937;
+	text-align: center;
+}
+.menu{
+	font-family: calibri;
+	color: #0e7490;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.menu:hover{
+	text-decoration: underline;
+}
+
+.menu:active{
+	color: #f48739;
+}
+
+.menu-img{
+	width: 350px;
+	border: 0px solid transparent;
+	border-radius: 9px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu-part>center{
+	margin-bottom: 10px;
+}
+
+/* Contact part */
+.contact-title{
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	color: #1f2937;
+}
+
+.c-sub-title{
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #0e7490;
+}
+
+.c-contact{
+	color: #1e3a8a;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 1.0em;
+	font-style: italic;
+}
+
+.diff{
+	text-align: center;
+}
